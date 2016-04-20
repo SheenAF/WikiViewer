@@ -1,0 +1,29 @@
+#wrapper {
+  margin: 0 auto;
+  padding-top: 120px;
+  width: 750px;
+  font-family: 'Open Sans';
+  color: #333; 
+}
+#matches {
+  list-style: none;
+  padding-top: 20px;
+  margin-left: 0;
+  li {
+    background: #EEEEEE;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  h5 {
+    font-family: 'Open Sans Condensed', sans; 
+    font-weight: bold;
+    color: #FF9966;
+    &:hover {
+      color: #E52B50;
+    }
+  }
+  p {
+    margin-bottom: 0;
+  }  
+}
